@@ -1,0 +1,18 @@
+{
+  "competitionName": "Walnut Education Coding Challenge",
+  "participants": [
+    {
+      "id": "p1",
+      "name": "Tech Wizards",
+      "scores": { "logic": 85, "design": 90, "presentation": 88 },
+      "total": 263
+    },
+    {
+      "id": "p2",
+      "name": "Code Crafters",
+      "scores": { "logic": 78, "design": 82, "presentation": 95 },
+      "total": 255
+    }
+  ],
+  "categories": ["logic", "design", "presentation"]
+}
