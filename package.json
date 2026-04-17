@@ -1,0 +1,5 @@
+"homepage": "http://{username}.github.io/WE_ScoringDashboard",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
