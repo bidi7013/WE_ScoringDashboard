@@ -1,71 +1,13 @@
-ddccc               <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WE Scoring Dashboard</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="dashboard-container">
-        <header>
-            <h1>Competition Leaderboard</h1>
-            <p class="subtitle">Live Tournament Standings</p>
-        </header>
-
-        <section class="podium">
-            <div class="rank second">
-                <div class="avatar">2</div>
-                <p class="name">Team Beta</p>
-                <p class="score">880 pts</p>
-            </div>
-            <div class="rank first">
-                <div class="avatar">1</div>
-                <p class="name">Team Alpha</p>
-                <p class="score">950 pts</p>
-            </div>
-            <div class="rank third">
-                <div class="avatar">3</div>
-                <p class="name">Team Gamma</p>
-                <p class="score">820 pts</p>
-            </div>
-        </section>
-
-        <main class="table-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Participant</th>
-                        <th>W - L - D</th>
-                        <th>Net +/-</th>
-                        <th>Total Score</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><strong>Team Alpha</strong></td>
-                        <td>5 - 0 - 0</td>
-                        <td>+120</td>
-                        <td class="points">950</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><strong>Team Beta</strong></td>
-                        <td>4 - 1 - 0</td>
-                        <td>+85</td>
-                        <td class="points">880</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><strong>Team Gamma</strong></td>
-                        <td>3 - 2 - 0</td>
-                        <td>+40</td>
-                        <td class="points">820</td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-    </div>
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
